@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.main {
+  /* background: url("/src/Images/anastasia-kozheko-cloudy.gif"); */
+  background-image: url("/src/Images/galaxy-g92be35ffd_1920.jpg");
+  background-size: 100%;
+  
+}
+
+@media (width <= 600px) {
+  .main {
+    background: url("/src/Images/mobile view.jpg");
+    background-size: cover;
+    background-position: bottom right;
+  }
+}
